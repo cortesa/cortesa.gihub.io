@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)https://yolotwittershare.s3.us-west-2.amazonaws.com/html_1675202751624_1456.html -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="My YOLOREKT Win" />
+    <meta
+      name="twitter:description"
+      content="I won on YOLOREKT and I wanted to share it with the world!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://yolotwittershare.s3.us-west-2.amazonaws.com/result_1675202751484_5841.png"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+        padding: 0;
+        margin: 0;
+        text-rendering: optimizeLegibility;
+        line-height: 140%;
+        font-weight: 400;
+        color: #fff;
+      }
+      ul,
+      ol,
+      li {
+        list-style: none;
+      }
+      body,
+      html {
+        height: 100%;
+      }
+      body {
+        font-size: 13px;
+        color: #fff;
+        animation: bugfix infinite 1s;
+        -webkit-animation: bugfix infinite 1s;
+      }
+      .window_page_overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(4, 18, 54, 1);
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      @-moz-document url-prefix() {
+        .window_page_overlay {
+          background: rgba(4, 18, 54, 1);
+        }
+      }
+      .window_page_overlay:before {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 7;
+        content: "";
+        /* border-radius: 50%; */
+        -webkit-transform: translateZ(-50%);
+        -moz-transform: translateZ(-50%);
+        -ms-transform: translateZ(-50%);
+        -o-transform: translateZ(-50%);
+        transform: translateZ(-50%);
+      }
+      .window_page_overlay.you_won:before {
+        background: linear-gradient(
+          180deg,
+          rgba(23, 60, 139, 0.15) 0%,
+          rgba(10, 25, 58, 0.95) 60%,
+          rgba(10, 25, 58, 0.85) 85%,
+          rgba(23, 60, 139, 0.15) 100%
+        );
+      }
+      a.image {
+        display: flex;
+        z-index: 9;
+        flex-flow: column;
+        text-decoration: none;
+        border-radius: 0 0 15px 15px;
+        overflow: hidden;
+      }
+      a.image img {
+        display: block;
+        -webkit-box-shadow: 0 1px 280px 0px rgb(0 0 0 / 30%);
+        box-shadow: 0 1px 280px 0px rgb(0 0 0 / 30%);
+      }
+      a.image .button {
+        background: rgb(29, 75, 175);
+        border-radius: 0 0 15px 15px;
+        padding: 6px 15px;
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        -webkit-box-shadow: 0 1px 280px 0px rgb(0 0 0 / 30%);
+        box-shadow: 0 1px 280px 0px rgb(0 0 0 / 30%);
+      }
+      a.image:hover .button {
+        background: rgb(42, 109, 255);
+      }
+
+      @-webkit-keyframes coin_drop {
+        0% {
+          -webkit-transform: translateY(-1000px) scaleY(1) scaleX(1);
+          transform: translateY(-1000px) scaleY(1) scaleX(1);
+          -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+          -webkit-filter: blur(0);
+          filter: blur(0);
+          opacity: 1;
+        }
+        100% {
+          -webkit-transform: translateY(1000px) scaleY(1) scaleX(1);
+          transform: translateY(1000px) scaleY(1) scaleX(1);
+          -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+          -webkit-filter: blur(0);
+          filter: blur(0);
+          opacity: 1;
+        }
+      }
+      @keyframes coin_drop {
+        0% {
+          -webkit-transform: translateY(-1000px) scaleY(1) scaleX(1);
+          transform: translateY(-1000px) scaleY(1) scaleX(1);
+          -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+          -webkit-filter: blur(0);
+          filter: blur(0);
+          opacity: 1;
+        }
+        100% {
+          -webkit-transform: translateY(1000px) scaleY(1) scaleX(1);
+          transform: translateY(1000px) scaleY(1) scaleX(1);
+          -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+          -webkit-filter: blur(0);
+          filter: blur(0);
+          opacity: 1;
+        }
+      }
+      .coin_drop {
+        background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjIuMywgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxMDU0LjEgMTAzNy4yIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMDU0LjEgMTAzNy4yOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6dXJsKCNTVkdJRF8xXyk7fQoJLnN0MXtmaWxsOnVybCgjU1ZHSURfMl8pO30KCS5zdDJ7ZmlsbDp1cmwoI1NWR0lEXzNfKTt9Cgkuc3Qze2ZpbGw6dXJsKCNTVkdJRF80Xyk7fQoJLnN0NHtmaWxsOnVybCgjU1ZHSURfNV8pO30KCS5zdDV7ZmlsbDp1cmwoI1NWR0lEXzZfKTt9Cgkuc3Q2e2ZpbGw6dXJsKCNTVkdJRF83Xyk7fQoJLnN0N3tmaWxsOnVybCgjU1ZHSURfOF8pO30KCS5zdDh7ZmlsbDp1cmwoI1NWR0lEXzlfKTt9Cgkuc3Q5e2ZpbGw6I0ZGRkFFNjt9Cgkuc3QxMHtmaWxsOnVybCgjU1ZHSURfMTBfKTt9Cgkuc3QxMXtmaWxsOnVybCgjU1ZHSURfMTFfKTt9Cgkuc3QxMntmaWxsOnVybCgjU1ZHSURfMTJfKTt9Cgkuc3QxM3tmaWxsOnVybCgjU1ZHSURfMTNfKTt9Cgkuc3QxNHtjbGlwLXBhdGg6dXJsKCNTVkdJRF8xNV8pO30KCS5zdDE1e2ZpbGw6dXJsKCNTVkdJRF8xNl8pO30KCS5zdDE2e2ZpbGw6dXJsKCNTVkdJRF8xN18pO30KPC9zdHlsZT4KPGc+CgkKCQk8cmFkaWFsR3JhZGllbnQgaWQ9IlNWR0lEXzFfIiBjeD0iNTAxLjE2NzciIGN5PSItMzQ4LjY1NyIgcj0iNTI3LjAxNzUiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTAuOTkwMSAwIDE1My43MDE2KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgoJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMxMTUyREMiLz4KCQk8c3RvcCAgb2Zmc2V0PSIwLjMyMjciIHN0eWxlPSJzdG9wLWNvbG9yOiMxMTUyREEiLz4KCQk8c3RvcCAgb2Zmc2V0PSIwLjY2NDkiIHN0eWxlPSJzdG9wLWNvbG9yOiMxMDUwRDgiLz4KCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMTA1MEQ4Ii8+Cgk8L3JhZGlhbEdyYWRpZW50PgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTEwMzEuNyw1MTYuMmMwLDI3Ni43LTIyNi41LDUwMS01MDYsNTAxcy01MDYtMjI0LjMtNTA2LTUwMXMyMjYuNS01MDEsNTA2LTUwMVMxMDMxLjcsMjM5LjUsMTAzMS43LDUxNi4yeiIvPgoJCgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8yXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1MjUuNzM3OCIgeTE9Ii0yNjQuNDgxNyIgeDI9IjUyNS43Mzc4IiB5Mj0iLTExNTkuNzcyMiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAwIDE3Mi41NTQ0KSI+CgkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzM3NTlBMDtzdG9wLW9wYWNpdHk6NC4wMDAwMDBlLTAyIi8+CgkJPHN0b3AgIG9mZnNldD0iMC40NjcxIiBzdHlsZT0ic3RvcC1jb2xvcjojMEU0NUJBIi8+CgkJPHN0b3AgIG9mZnNldD0iMC44MDE2IiBzdHlsZT0ic3RvcC1jb2xvcjojMzA1MTk0Ii8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzNDNjNCNSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xOS43LDUxNi4yYzAsMTc4LjgsOTQuNiwzMzUuNywyMzcsNDI0LjRoNTM4YzE0Mi40LTg4LjcsMjM3LTI0NS42LDIzNy00MjQuNHMtOTQuNi0zMzUuNy0yMzctNDI0LjRoLTUzOAoJCUMxMTQuNCwxODAuNSwxOS43LDMzNy40LDE5LjcsNTE2LjJ6Ii8+CgkKCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzNfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUyNS43Mzc4IiB5MT0iLTQ2NC44Nzc5IiB4Mj0iNTI1LjczNzgiIHkyPSI0MzkuODUwMiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAwIDE3Mi41NTQ0KSI+CgkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzM3NTlBMDtzdG9wLW9wYWNpdHk6NC4wMDAwMDBlLTAyIi8+CgkJPHN0b3AgIG9mZnNldD0iMC40NjcxIiBzdHlsZT0ic3RvcC1jb2xvcjojMEU0NUJBIi8+CgkJPHN0b3AgIG9mZnNldD0iMC44MDE2IiBzdHlsZT0ic3RvcC1jb2xvcjojMzA1MTk0Ii8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzNDNjNCNSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xOS43LDUxNi4yYzAsMTI3LjYsNDguMiwyNDQsMTI3LjUsMzMyLjRoNzU3LjFjNzkuMy04OC41LDEyNy41LTIwNC45LDEyNy41LTMzMi40cy00OC4yLTI0NC0xMjcuNS0zMzIuNAoJCUgxNDcuMkM2Ny45LDI3Mi4yLDE5LjcsMzg4LjYsMTkuNyw1MTYuMnoiLz4KCQoJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNF8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNTI1LjczNzgiIHkxPSItMzU4Ljc4NTYiIHgyPSI1MjUuNzM3OCIgeTI9Ii02NDguMTMxNyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAwIDE3Mi41NTQ0KSI+CgkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzM3NTlBMDtzdG9wLW9wYWNpdHk6NC4wMDAwMDBlLTAyIi8+CgkJPHN0b3AgIG9mZnNldD0iMC40NjcxIiBzdHlsZT0ic3RvcC1jb2xvcjojMEU0NUJBIi8+CgkJPHN0b3AgIG9mZnNldD0iMC44MDE2IiBzdHlsZT0ic3RvcC1jb2xvcjojMzA1MTk0Ii8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzNDNjNCNSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDMiIGQ9Ik0xOS43LDUxNi4yYzAsNzQuNiwxNi41LDE0NS4zLDQ2LDIwOC45aDkyMC4xYzI5LjUtNjMuNiw0Ni0xMzQuMyw0Ni0yMDguOXMtMTYuNS0xNDUuMy00Ni0yMDguOUg2NS43CgkJQzM2LjIsMzcwLjksMTkuNyw0NDEuNiwxOS43LDUxNi4yeiIvPgoJCgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF81XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1MjUuNzM3OCIgeTE9Ii00NTMuMDg5NyIgeDI9IjUyNS43Mzc4IiB5Mj0iMzkuNjIyOSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAwIDE3Mi41NTQ0KSI+CgkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzM3NTlBMDtzdG9wLW9wYWNpdHk6NC4wMDAwMDBlLTAyIi8+CgkJPHN0b3AgIG9mZnNldD0iMC40NjcxIiBzdHlsZT0ic3RvcC1jb2xvcjojMEU0NUJBIi8+CgkJPHN0b3AgIG9mZnNldD0iMC44MDE2IiBzdHlsZT0ic3RvcC1jb2xvcjojMzA1MTk0Ii8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzNDNjNCNSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDQiIGQ9Ik0xOS43LDUxNi4yYzAsNDMuMiw1LjUsODUsMTUuOSwxMjVoOTgwLjJjMTAuNC00MCwxNS45LTgxLjgsMTUuOS0xMjVjMC00My4yLTUuNS04NS0xNS45LTEyNUgzNS42CgkJQzI1LjMsNDMxLjIsMTkuNyw0NzMsMTkuNyw1MTYuMnoiLz4KCQoJCTxyYWRpYWxHcmFkaWVudCBpZD0iU1ZHSURfNl8iIGN4PSIzMzcuNDciIGN5PSItMjI5LjYwNDMiIHI9IjcwOC4zNjg3IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0wLjk5MDEgMCAxNTMuNzAxNikiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMzU3MUYwIi8+CgkJPHN0b3AgIG9mZnNldD0iMC4yODM3IiBzdHlsZT0ic3RvcC1jb2xvcjojMjc2N0VGIi8+CgkJPHN0b3AgIG9mZnNldD0iMC41MzkxIiBzdHlsZT0ic3RvcC1jb2xvcjojMjA2MkVFIi8+CgkJPHN0b3AgIG9mZnNldD0iMC43ODI3IiBzdHlsZT0ic3RvcC1jb2xvcjojMTk1REVFIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzE3NUNFRSIvPgoJPC9yYWRpYWxHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDUiIGQ9Ik00ODUuNiwxNi43QzIyNC45LDM3LDE5LjcsMjUyLjksMTkuNyw1MTYuMnMyMDUuMiw0NzkuMiw0NjUuOCw0OTkuNGMyNjAuNy0yMC4zLDQ2NS44LTIzNi4xLDQ2NS44LTQ5OS40CgkJUzc0Ni4yLDM3LDQ4NS42LDE2Ljd6Ii8+CgkKCQk8cmFkaWFsR3JhZGllbnQgaWQ9IlNWR0lEXzdfIiBjeD0iNDg1LjU1OCIgY3k9Ii0zNjYuMDk3NCIgcj0iNDQzLjA5MzkiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTAuOTkwMSAwIDE1My43MDE2KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgoJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkZDRjgiLz4KCQk8c3RvcCAgb2Zmc2V0PSIwLjk0ODUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkZDRjg7c3RvcC1vcGFjaXR5OjUuMDk4MDAwZS0wMiIvPgoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkZDRjg7c3RvcC1vcGFjaXR5OjAiLz4KCTwvcmFkaWFsR3JhZGllbnQ+Cgk8cGF0aCBjbGFzcz0ic3Q2IiBkPSJNNTExLjcsNjIuNmMtMTcuNC0yLjMtMzUtMi4zLTUyLjQsMEMyMzMuOCw5Myw1OS45LDI4NC41LDU5LjksNTE2LjJzMTczLjksNDIzLjIsMzk5LjUsNDUzLjYKCQljMTcuNCwyLjMsMzUsMi4zLDUyLjQsMGMyMjUuNi0zMC40LDM5OS41LTIyMS45LDM5OS41LTQ1My42UzczNy4zLDkzLDUxMS43LDYyLjZ6Ii8+CgkKCQk8cmFkaWFsR3JhZGllbnQgaWQ9IlNWR0lEXzhfIiBjeD0iNTU5LjgzMzIiIGN5PSItMzEwLjM4NTkiIHI9IjYzOS41NzMiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMC45MjAxIDAgMCAtMC45OTQgNi44OTUyIDE1NS41NzQ0KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgoJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMxMTU0RTEiLz4KCQk8c3RvcCAgb2Zmc2V0PSIwLjMyMjciIHN0eWxlPSJzdG9wLWNvbG9yOiMxMTU0RTEiLz4KCQk8c3RvcCAgb2Zmc2V0PSIwLjY2NDkiIHN0eWxlPSJzdG9wLWNvbG9yOiMxMTU1RTMiLz4KCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMTE1NUUzIi8+Cgk8L3JhZGlhbEdyYWRpZW50PgoJPHBhdGggY2xhc3M9InN0NyIgZD0iTTg1OS41LDUxNi4yYzAtMjI0LjMtMTY4LjMtNDA2LjItMzc2LTQwNi4yYy0yMDcuNywwLTM3NiwxODEuOS0zNzYsNDA2LjJzMTY4LjMsNDA2LjIsMzc2LDQwNi4yCgkJQzY5MS4yLDkyMi40LDg1OS41LDc0MC41LDg1OS41LDUxNi4yeiIvPgoJCgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF85XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI3OTQuNjc3MSIgeTE9Ii02MDMuMTc0NyIgeDI9IjIzNS4xNjgyIiB5Mj0iLTEyOS4wMTk0IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0wLjk5MDEgMCAxNTMuNzAxNikiPgoJCTxzdG9wICBvZmZzZXQ9IjIuMjU3NDM2ZS0wMyIgc3R5bGU9InN0b3AtY29sb3I6IzI0NERBMyIvPgoJCTxzdG9wICBvZmZzZXQ9IjAuNDYzMSIgc3R5bGU9InN0b3AtY29sb3I6IzIzNjVFRSIvPgoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MjhERjAiLz4KCTwvbGluZWFyR3JhZGllbnQ+Cgk8cGF0aCBjbGFzcz0ic3Q4IiBkPSJNNTg2LjcsMTI1LjVjLTQ2LjgtMTQuNC05Ni44LTE0LjQtMTQzLjYsMGMtMTU3LjUsNDguNS0yNzIuOCwyMDUtMjcyLjgsMzkwLjcKCQljMCwxODkuMywxMTkuOSwzNDguMywyODIuMSwzOTMuNGM0MC44LDExLjMsODQuMiwxMS4zLDEyNSwwYzE2Mi4yLTQ1LjEsMjgyLjEtMjA0LjEsMjgyLjEtMzkzLjQKCQlDODU5LjUsMzMwLjUsNzQ0LjIsMTc0LDU4Ni43LDEyNS41eiIvPgoJPGc+CgkJPHBhdGggY2xhc3M9InN0OSIgZD0iTTY0Ny4xLDI3NS4zQzU2NiwyNzcuNCw1MDEsMzQ5LjQsNTAxLDQzMnM2NC41LDE1My41LDE0Ni4yLDE1Ni43YzgxLjEsMCwxNDYuMi03NC4xLDE0Ni4yLTE1Ni43CgkJCVM3MjguMywyNzcuNCw2NDcuMSwyNzUuM3oiLz4KCQk8Zz4KCQkJCgkJCQk8cmFkaWFsR3JhZGllbnQgaWQ9IlNWR0lEXzEwXyIgY3g9IjcwNS42ODM2IiBjeT0iLTI2NS43NTkiIHI9IjE1MC4zNTg2IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuOTIwMSAwIDAgLTAuOTk0IDYuODk1MiAxNTUuNTc0NCkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KCQkJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMxMTU0RTEiLz4KCQkJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMxMTU0RTEiLz4KCQkJPC9yYWRpYWxHcmFkaWVudD4KCQkJPHBhdGggY2xhc3M9InN0MTAiIGQ9Ik03MzUuNSw0MzJjMC01Mi43LTM5LjYtOTUuNS04OC40LTk1LjVjLTQ4LjgsMC04OC40LDQyLjgtODguNCw5NS41czM5LjYsOTUuNSw4OC40LDk1LjUKCQkJCUM2OTYsNTI3LjUsNzM1LjUsNDg0LjcsNzM1LjUsNDMyeiIvPgoJCQkKCQkJCTxyYWRpYWxHcmFkaWVudCBpZD0iU1ZHSURfMTFfIiBjeD0iOTk2LjkwNzciIGN5PSItMjQ4LjExODciIHI9IjE0MC42NTU4IiBmeD0iMTEyOC4yNjM1IiBmeT0iLTI5OC40MTQ2IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuODc5OSAwIDAgLTAuOTkwMSAtMjQyLjYyMTUgMTUzLjcwMTYpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CgkJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojNDI3QUYxIi8+CgkJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZBNzAwIi8+CgkJCTwvcmFkaWFsR3JhZGllbnQ+CgkJCTxwYXRoIGNsYXNzPSJzdDExIiBkPSJNNjc3LjEsMzQyLjRjLTkuNy0zLjQtMTguMS01LjYtMjcuNy0yLjJDNjE2LjgsMzUxLjUsNTkzLDM4OC4zLDU5Myw0MzJjMCw0NC41LDI0LjgsODEuOSw1OC40LDkyLjUKCQkJCWM4LjUsMi43LDE4LjktMSwyNy40LTMuN2MyNy43LTEyLjUsNTYuOC00NC4zLDU2LjgtODguOEM3MzUuNSwzODguMyw3MDkuNywzNTMuOCw2NzcuMSwzNDIuNHoiLz4KCQk8L2c+Cgk8L2c+Cgk8Zz4KCQk8cGF0aCBjbGFzcz0ic3Q5IiBkPSJNNTM2LjQsNjQxLjFjLTQzLjMsMC03OC4xLDM3LjgtNzguMSw4MS45czM0LjUsODEuNiw3OC4xLDgxLjZjNDQtMS40LDc4LjEtMzcuNCw3OC4xLTgxLjYKCQkJUzU3OS43LDY0Mi41LDUzNi40LDY0MS4xeiIvPgoJCTxnPgoJCQkKCQkJCTxyYWRpYWxHcmFkaWVudCBpZD0iU1ZHSURfMTJfIiBjeD0iOTc0LjYyOTYiIGN5PSItNzU1LjA2NjUiIHI9IjU0LjUxOTciIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMC44NjEyIDAgMCAtMC45MzA0IC0yOTkuODg2IDE2LjM3NTUpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CgkJCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMTE1NUU1Ii8+CgkJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMTE1NUUzIi8+CgkJCTwvcmFkaWFsR3JhZGllbnQ+CgkJCTxwYXRoIGNsYXNzPSJzdDEyIiBkPSJNNTY2LjQsNzIzYzAtMTcuOS0xMy40LTMyLjQtMzAtMzIuNGMtMTYuNiwwLTMwLDE0LjUtMzAsMzIuNGMwLDE3LjksMTMuNCwzMi40LDMwLDMyLjQKCQkJCUM1NTMsNzU1LjUsNTY2LjQsNzQwLjksNTY2LjQsNzIzeiIvPgoJCQkKCQkJCTxyYWRpYWxHcmFkaWVudCBpZD0iU1ZHSURfMTNfIiBjeD0iMjYxNy43NjQ0IiBjeT0iLTgyNC44MzkiIHI9IjUwLjk4NzIiIGZ4PSIyNjY1LjM4MDQiIGZ5PSItODQzLjA3MSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwLjY2NzIgMCAwIC0wLjkwNDYgLTEyMDcuODYyNCAtMzMuODkwMSkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KCQkJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiM0MjdBRjEiLz4KCQkJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkE3MDAiLz4KCQkJPC9yYWRpYWxHcmFkaWVudD4KCQkJPHBhdGggY2xhc3M9InN0MTMiIGQ9Ik01NDguMiw2OTMuM2MtMi43LTEuMS0yLjgtMS43LTUuNC0wLjZjLTksMy44LTE1LjUsMTYtMTUuNSwzMC40YzAsMTQuNyw2LjgsMjcuMSwxNiwzMC42CgkJCQljMi4zLDAuOSw1LjUtMS42LDcuOC0yLjVjNi41LTQsMTUuMy0xMy40LDE1LjMtMjguMkM1NjYuNCw3MDguNSw1NTcuMSw2OTcuMSw1NDguMiw2OTMuM3oiLz4KCQk8L2c+Cgk8L2c+Cgk8cGF0aCBjbGFzcz0ic3Q5IiBkPSJNNDIyLjMsMzgzLjZjLTE4LDAtMzMuNywxNi0zMy43LDM1LjFjMCwxOS4xLDE1LDM0LjgsMzMuNywzNC44YzE5LjMsMCwzMy43LTE1LjgsMzMuNy0zNC44CgkJQzQ1NiwzOTkuNiw0NDAuNSwzODMuNiw0MjIuMywzODMuNnoiLz4KCTxwYXRoIGNsYXNzPSJzdDkiIGQ9Ik0zMDkuNyw2MzYuMWMtMTgsMC0zMy43LDE2LTMzLjcsMzUuMXMxNSwzNC44LDMzLjcsMzQuOGMxOS4zLDAsMzMuNy0xNS44LDMzLjctMzQuOFMzMjcuOSw2MzYuMSwzMDkuNyw2MzYuMXoKCQkiLz4KCTxwYXRoIGNsYXNzPSJzdDkiIGQ9Ik03MTYuNyw2ODIuMmMtMTgsMC0zMy43LDE2LTMzLjcsMzUuMWMwLDE5LjEsMTUsMzQuOCwzMy43LDM0LjhjMTkuMywwLDMzLjctMTUuOCwzMy43LTM0LjgKCQlDNzUwLjUsNjk4LjIsNzM1LDY4Mi4yLDcxNi43LDY4Mi4yeiIvPgoJPGc+CgkJPGRlZnM+CgkJCTxwYXRoIGlkPSJTVkdJRF8xNF8iIGQ9Ik01ODYuNywxMjUuM2MtNDYuOC0xNC40LTk2LjgtMTQuNC0xNDMuNiwwYy0xNTcuNSw0OC41LTI3Mi44LDIwNS0yNzIuOCwzOTAuNwoJCQkJYzAsMTg5LjMsMTE5LjksMzQ4LjMsMjgyLjEsMzkzLjRjNDAuOCwxMS4zLDg0LjIsMTEuMywxMjUsMEM3MzkuNiw4NjQuMyw4NTkuNSw3MDUuMyw4NTkuNSw1MTYKCQkJCUM4NTkuNSwzMzAuMyw3NDQuMiwxNzMuOCw1ODYuNywxMjUuM3oiLz4KCQk8L2RlZnM+CgkJPGNsaXBQYXRoIGlkPSJTVkdJRF8xNV8iPgoJCQk8dXNlIHhsaW5rOmhyZWY9IiNTVkdJRF8xNF8iICBzdHlsZT0ib3ZlcmZsb3c6dmlzaWJsZTsiLz4KCQk8L2NsaXBQYXRoPgoJCTxnIGNsYXNzPSJzdDE0Ij4KCQkJPHBhdGggY2xhc3M9InN0OSIgZD0iTTI5OS4yLDE5NS40Yy00My4zLDAtNzguMSwzNy44LTc4LjEsODEuOXMzNC41LDgxLjYsNzguMSw4MS42YzQ0LTEuNCw3OC4xLTM3LjQsNzguMS04MS42CgkJCQlTMzQyLjUsMTk2LjgsMjk5LjIsMTk1LjR6Ii8+CgkJCTxnPgoJCQkJCgkJCQkJPHJhZGlhbEdyYWRpZW50IGlkPSJTVkdJRF8xNl8iIGN4PSI2OTkuMjE1MyIgY3k9Ii0yNzYuMDA1MyIgcj0iNTQuNTE5NyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwLjg2MTIgMCAwIC0wLjkzMDQgLTI5OS44ODYgMTYuMzc1NSkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KCQkJCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMTE1NUU1Ii8+CgkJCQkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzExNTVFMyIvPgoJCQkJPC9yYWRpYWxHcmFkaWVudD4KCQkJCTxwYXRoIGNsYXNzPSJzdDE1IiBkPSJNMzI5LjIsMjc3LjNjMC0xNy45LTEzLjQtMzIuNC0zMC0zMi40Yy0xNi42LDAtMzAsMTQuNS0zMCwzMi40YzAsMTcuOSwxMy40LDMyLjQsMzAsMzIuNAoJCQkJCUMzMTUuOCwzMDkuNywzMjkuMiwyOTUuMiwzMjkuMiwyNzcuM3oiLz4KCQkJCQoJCQkJCTxyYWRpYWxHcmFkaWVudCBpZD0iU1ZHSURfMTdfIiBjeD0iMjI2Mi4yNTYzIiBjeT0iLTMzMi4xMjEzIiByPSI1MC45ODcyIiBmeD0iMjMwOS44NzIzIiBmeT0iLTM1MC4zNTM0IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDAuNjY3MiAwIDAgLTAuOTA0NiAtMTIwNy44NjI0IC0zMy44OTAxKSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgoJCQkJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiM0MjdBRjEiLz4KCQkJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZBNzAwIi8+CgkJCQk8L3JhZGlhbEdyYWRpZW50PgoJCQkJPHBhdGggY2xhc3M9InN0MTYiIGQ9Ik0zMTEsMjQ3LjZjLTIuNy0xLjEtMi44LTEuNy01LjQtMC42Yy05LDMuOC0xNS41LDE2LTE1LjUsMzAuNGMwLDE0LjcsNi44LDI3LjEsMTYsMzAuNgoJCQkJCWMyLjMsMC45LDUuNS0xLjYsNy44LTIuNWM2LjUtNCwxNS4zLTEzLjQsMTUuMy0yOC4yQzMyOS4yLDI2Mi44LDMxOS45LDI1MS40LDMxMSwyNDcuNnoiLz4KCQkJPC9nPgoJCTwvZz4KCTwvZz4KPC9nPgo8L3N2Zz4K");
+        position: absolute;
+        z-index: 6;
+        opacity: 0;
+        -webkit-animation-name: coin_drop;
+        animation-name: coin_drop;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-play-state: running;
+        animation-play-state: running;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+      }
+      .coin-15 {
+        width: 15px;
+        height: 15px;
+        -webkit-animation-duration: 13s;
+        animation-duration: 13s;
+        -webkit-filter: blur(10px);
+        filter: blur(10px);
+      }
+      .coin-30 {
+        width: 30px;
+        height: 30px;
+        -webkit-animation-duration: 9s;
+        animation-duration: 9s;
+        -webkit-filter: blur(8px);
+        filter: blur(8px);
+      }
+      .coin-60 {
+        width: 60px;
+        height: 60px;
+        -webkit-animation-duration: 7s;
+        animation-duration: 7s;
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+      }
+      .coin-110 {
+        width: 110px;
+        height: 110px;
+        -webkit-animation-duration: 5.5s;
+        animation-duration: 5.5s;
+        -webkit-filter: blur(2px);
+        filter: blur(2px);
+      }
+      .coin-15-L50-13s-0 {
+        left: 50px;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+      }
+      .coin-15-L70-13s-3 {
+        left: 70px;
+        -webkit-animation-delay: 3s;
+        animation-delay: 3s;
+      }
+      .coin-15-L100-13s-4 {
+        left: 100px;
+        -webkit-animation-delay: 4s;
+        animation-delay: 4s;
+      }
+      .coin-15-L160-13s-45 {
+        left: 160px;
+        -webkit-animation-delay: 4.5s;
+        animation-delay: 4.5s;
+      }
+      .coin-15-L230-13s-6 {
+        left: 230px;
+        -webkit-animation-delay: 6s;
+        animation-delay: 6s;
+      }
+      .coin-15-L150-13s-02 {
+        left: 150px;
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+      }
+      .coin-15-L170-13s-1 {
+        left: 170px;
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+      }
+      .coin-15-L200-13s-2 {
+        left: 200px;
+        -webkit-animation-delay: 2s;
+        animation-delay: 2s;
+      }
+      .coin-15-L260-13s-35 {
+        left: 260px;
+        -webkit-animation-delay: 3.5s;
+        animation-delay: 3.5s;
+      }
+      .coin-15-L330-13s-5 {
+        left: 330px;
+        -webkit-animation-delay: 5s;
+        animation-delay: 5s;
+      }
+      .coin-15-L250-13s-02 {
+        left: 250px;
+        -webkit-animation-delay: 0.9s;
+        animation-delay: 0.9s;
+      }
+      .coin-15-L270-13s-1 {
+        left: 270px;
+        -webkit-animation-delay: 4s;
+        animation-delay: 4s;
+      }
+      .coin-15-L300-13s-2 {
+        left: 300px;
+        -webkit-animation-delay: 7s;
+        animation-delay: 7s;
+      }
+      .coin-15-L360-13s-35 {
+        left: 360px;
+        -webkit-animation-delay: 7.5s;
+        animation-delay: 7.5s;
+      }
+      .coin-15-L430-13s-5 {
+        left: 430px;
+        -webkit-animation-delay: 8s;
+        animation-delay: 8s;
+      }
+      .coin-30-L30-9s-25 {
+        left: 30px;
+        -webkit-animation-delay: 2.5s;
+        animation-delay: 2.5s;
+      }
+      .coin-30-L50-9s-05 {
+        left: 50px;
+        -webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+      }
+      .coin-30-L100-9s-1 {
+        left: 100px;
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+      }
+      .coin-30-L100-9s-21 {
+        left: 100px;
+        -webkit-animation-delay: 2.1s;
+        animation-delay: 2.1s;
+      }
+      .coin-30-L170-9s-3 {
+        left: 170px;
+        -webkit-animation-delay: 3s;
+        animation-delay: 3s;
+      }
+      .coin-30-L190-9s-2 {
+        left: 190px;
+        -webkit-animation-delay: 2s;
+        animation-delay: 2s;
+      }
+      .coin-30-L130-9s-39 {
+        left: 130px;
+        -webkit-animation-delay: 3.9s;
+        animation-delay: 3.9s;
+      }
+      .coin-30-L150-9s-15 {
+        left: 150px;
+        -webkit-animation-delay: 1.5s;
+        animation-delay: 1.5s;
+      }
+      .coin-30-L200-9s-17 {
+        left: 200px;
+        -webkit-animation-delay: 1.7s;
+        animation-delay: 1.7s;
+      }
+      .coin-30-L200-9s-21 {
+        left: 200px;
+        -webkit-animation-delay: 2.1s;
+        animation-delay: 2.1s;
+      }
+      .coin-30-L270-9s-43 {
+        left: 270px;
+        -webkit-animation-delay: 4.3s;
+        animation-delay: 4.3s;
+      }
+      .coin-30-L290-9s-23 {
+        left: 290px;
+        -webkit-animation-delay: 2.3s;
+        animation-delay: 2.3s;
+      }
+      .coin-30-L330-9s-23 {
+        left: 330px;
+        -webkit-animation-delay: 2.3s;
+        animation-delay: 2.3s;
+      }
+      .coin-30-L350-9s-46 {
+        left: 350px;
+        -webkit-animation-delay: 4.6s;
+        animation-delay: 4.6s;
+      }
+      .coin-30-L400-9s-13 {
+        left: 400px;
+        -webkit-animation-delay: 1.3s;
+        animation-delay: 1.3s;
+      }
+      .coin-30-L400-9s-14 {
+        left: 400px;
+        -webkit-animation-delay: 1.4s;
+        animation-delay: 1.4s;
+      }
+      .coin-30-L470-9s-69 {
+        left: 470px;
+        -webkit-animation-delay: 6.9s;
+        animation-delay: 6.9s;
+      }
+      .coin-30-L490-9s-44 {
+        left: 490px;
+        -webkit-animation-delay: 4.4s;
+        animation-delay: 4.4s;
+      }
+      .coin-60-L-30-7s-06 {
+        left: -30px;
+        -webkit-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+      }
+      .coin-60-L40-7s-02 {
+        left: 40px;
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+      }
+      .coin-60-L90-7s-0 {
+        left: 90px;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+      }
+      .coin-60-L-50-7s-12 {
+        left: 50px;
+        -webkit-animation-delay: 1.2s;
+        animation-delay: 1.2s;
+      }
+      .coin-60-L160-7s-17 {
+        left: 160px;
+        -webkit-animation-delay: 1.7s;
+        animation-delay: 1.7s;
+      }
+      .coin-60-L160-7s-25 {
+        left: 160px;
+        -webkit-animation-delay: 2.5s;
+        animation-delay: 2.5s;
+      }
+      .coin-60-L270-7s-1 {
+        left: 270px;
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+      }
+      .coin-60-L-50-7s-09 {
+        left: -50px;
+        -webkit-animation-delay: 0.9s;
+        animation-delay: 0.9s;
+      }
+      .coin-60-L140-7s-05 {
+        left: 140px;
+        -webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+      }
+      .coin-60-L190-7s-11 {
+        left: 190px;
+        -webkit-animation-delay: 1.1s;
+        animation-delay: 1.1s;
+      }
+      .coin-60-L150-7s-13 {
+        left: 150px;
+        -webkit-animation-delay: 1.3s;
+        animation-delay: 1.3s;
+      }
+      .coin-60-L260-7s-29 {
+        left: 260px;
+        -webkit-animation-delay: 2.9s;
+        animation-delay: 2.9s;
+      }
+      .coin-60-L260-7s-39 {
+        left: 260px;
+        -webkit-animation-delay: 3.9s;
+        animation-delay: 3.9s;
+      }
+      .coin-60-L370-7s-16 {
+        left: 370px;
+        -webkit-animation-delay: 1.6s;
+        animation-delay: 1.6s;
+      }
+      .coin-60-L450-7s-49 {
+        left: 450px;
+        -webkit-animation-delay: 4.9s;
+        animation-delay: 4.9s;
+      }
+      .coin-60-L440-7s-6 {
+        left: 440px;
+        -webkit-animation-delay: 6s;
+        animation-delay: 6s;
+      }
+      .coin-60-L490-7s-29 {
+        left: 490px;
+        -webkit-animation-delay: 2.9s;
+        animation-delay: 2.9s;
+      }
+      .coin-60-L450-7s-83 {
+        left: 450px;
+        -webkit-animation-delay: 8.3s;
+        animation-delay: 8.3s;
+      }
+      .coin-60-L560-7s-130 {
+        left: 560px;
+        -webkit-animation-delay: 13s;
+        animation-delay: 13s;
+      }
+      .coin-60-L560-7s-06 {
+        left: 560px;
+        -webkit-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+      }
+      .coin-60-L670-7s-51 {
+        left: 670px;
+        -webkit-animation-delay: 5.1s;
+        animation-delay: 5.1s;
+      }
+      .coin-110-L70-55s-0 {
+        left: 70px;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+      }
+      .coin-110-L130-55s-2 {
+        left: 130px;
+        -webkit-animation-delay: 2s;
+        animation-delay: 2s;
+      }
+      .coin-110-L160-55s-3 {
+        left: 160px;
+        -webkit-animation-delay: 3s;
+        animation-delay: 3s;
+      }
+      .coin-110-L210-55s-4 {
+        left: 210px;
+        -webkit-animation-delay: 4s;
+        animation-delay: 4s;
+      }
+      .coin-110-L360-55s-34 {
+        left: 360px;
+        -webkit-animation-delay: 3.4s;
+        animation-delay: 3.4s;
+      }
+      .coin-110-L170-55s-09 {
+        left: 170px;
+        -webkit-animation-delay: 0.9s;
+        animation-delay: 0.9s;
+      }
+      .coin-110-L230-55s-21 {
+        left: 230px;
+        -webkit-animation-delay: 2.1s;
+        animation-delay: 2.1s;
+      }
+      .coin-110-L260-55s-33 {
+        left: 260px;
+        -webkit-animation-delay: 3.3s;
+        animation-delay: 3.3s;
+      }
+      .coin-110-L410-55s-6 {
+        left: 410px;
+        -webkit-animation-delay: 6s;
+        animation-delay: 6s;
+      }
+      .coin-110-L460-55s-27 {
+        left: 460px;
+        -webkit-animation-delay: 2.7s;
+        animation-delay: 2.7s;
+      }
+      .coin-110-L270-55s-01 {
+        left: 270px;
+        -webkit-animation-delay: 0.1s;
+        animation-delay: 0.1s;
+      }
+      .coin-110-L300-55s-39 {
+        left: 300px;
+        -webkit-animation-delay: 3.9s;
+        animation-delay: 3.9s;
+      }
+      .coin-110-L360-55s-53 {
+        left: 360px;
+        -webkit-animation-delay: 5.3s;
+        animation-delay: 5.3s;
+      }
+      .coin-110-L510-55s-39 {
+        left: 510px;
+        -webkit-animation-delay: 3.9s;
+        animation-delay: 3.9s;
+      }
+      .coin-110-L560-55s-84 {
+        left: 560px;
+        -webkit-animation-delay: 8.4s;
+        animation-delay: 8.4s;
+      }
+      .coin-15-R50-13s-0 {
+        right: 50px;
+        -webkit-animation-delay: 3s;
+        animation-delay: 3s;
+      }
+      .coin-15-R70-13s-3 {
+        right: 70px;
+        -webkit-animation-delay: 3.5s;
+        animation-delay: 3.5s;
+      }
+      .coin-15-R100-13s-4 {
+        right: 100px;
+        -webkit-animation-delay: 4.8s;
+        animation-delay: 4.8s;
+      }
+      .coin-15-R160-13s-45 {
+        right: 160px;
+        -webkit-animation-delay: 4.9s;
+        animation-delay: 4.9s;
+      }
+      .coin-15-R230-13s-6 {
+        right: 230px;
+        -webkit-animation-delay: 6.3s;
+        animation-delay: 6.3s;
+      }
+      .coin-15-R150-13s-02 {
+        right: 150px;
+        -webkit-animation-delay: 2.2s;
+        animation-delay: 2.2s;
+      }
+      .coin-15-R170-13s-1 {
+        right: 170px;
+        -webkit-animation-delay: 3.1s;
+        animation-delay: 3.1s;
+      }
+      .coin-15-R200-13s-2 {
+        right: 200px;
+        -webkit-animation-delay: 2.9s;
+        animation-delay: 2.9s;
+      }
+      .coin-15-R260-13s-35 {
+        right: 260px;
+        -webkit-animation-delay: 4.5s;
+        animation-delay: 4.5s;
+      }
+      .coin-15-R330-13s-5 {
+        right: 330px;
+        -webkit-animation-delay: 5.8s;
+        animation-delay: 5.8s;
+      }
+      .coin-15-R250-13s-02 {
+        right: 250px;
+        -webkit-animation-delay: 2.9s;
+        animation-delay: 2.9s;
+      }
+      .coin-15-R270-13s-1 {
+        right: 270px;
+        -webkit-animation-delay: 3.4s;
+        animation-delay: 3.4s;
+      }
+      .coin-15-R300-13s-2 {
+        right: 300px;
+        -webkit-animation-delay: 5.7s;
+        animation-delay: 5.7s;
+      }
+      .coin-15-R360-13s-35 {
+        right: 360px;
+        -webkit-animation-delay: 8.5s;
+        animation-delay: 8.5s;
+      }
+      .coin-15-R430-13s-5 {
+        right: 430px;
+        -webkit-animation-delay: 9.8s;
+        animation-delay: 9.8s;
+      }
+      .coin-30-R30-9s-05 {
+        right: 30px;
+        -webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+      }
+      .coin-30-R50-9s-05 {
+        right: 50px;
+        -webkit-animation-delay: 0.9s;
+        animation-delay: 0.9s;
+      }
+      .coin-30-R100-9s-05 {
+        right: 100px;
+        -webkit-animation-delay: 2s;
+        animation-delay: 2s;
+      }
+      .coin-30-R100-9s-11 {
+        right: 100px;
+        -webkit-animation-delay: 0.3s;
+        animation-delay: 0.3s;
+      }
+      .coin-30-R190-9s-2 {
+        right: 190px;
+        -webkit-animation-delay: 2.2s;
+        animation-delay: 2.2s;
+      }
+      .coin-30-R170-9s-3 {
+        right: 170px;
+        -webkit-animation-delay: 3.6s;
+        animation-delay: 3.6s;
+      }
+      .coin-30-R130-9s-19 {
+        right: 130px;
+        -webkit-animation-delay: 1.9s;
+        animation-delay: 1.9s;
+      }
+      .coin-30-R150-9s-35 {
+        right: 150px;
+        -webkit-animation-delay: 3.5s;
+        animation-delay: 3.5s;
+      }
+      .coin-30-R200-9s-07 {
+        right: 200px;
+        -webkit-animation-delay: 0.7s;
+        animation-delay: 0.7s;
+      }
+      .coin-30-R200-9s-29 {
+        right: 200px;
+        -webkit-animation-delay: 2.9s;
+        animation-delay: 2.9s;
+      }
+      .coin-30-R270-9s-46 {
+        right: 270px;
+        -webkit-animation-delay: 4.6s;
+        animation-delay: 4.6s;
+      }
+      .coin-30-R290-9s-57 {
+        right: 290px;
+        -webkit-animation-delay: 5.7s;
+        animation-delay: 5.7s;
+      }
+      .coin-30-R330-9s-06 {
+        right: 330px;
+        -webkit-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+      }
+      .coin-30-R350-9s-19 {
+        right: 350px;
+        -webkit-animation-delay: 1.9s;
+        animation-delay: 1.9s;
+      }
+      .coin-30-R400-9s-26 {
+        right: 400px;
+        -webkit-animation-delay: 2.6s;
+        animation-delay: 2.6s;
+      }
+      .coin-30-R400-9s-38 {
+        right: 400px;
+        -webkit-animation-delay: 3.8s;
+        animation-delay: 3.8s;
+      }
+      .coin-30-R470-9s-09 {
+        right: 470px;
+        -webkit-animation-delay: 0.9s;
+        animation-delay: 0.9s;
+      }
+      .coin-30-R490-9s-02 {
+        right: 490px;
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+      }
+      .coin-60-R-30-7s-06 {
+        right: -30px;
+        -webkit-animation-delay: 0.9s;
+        animation-delay: 0.9s;
+      }
+      .coin-60-R40-7s-02 {
+        right: 40px;
+        -webkit-animation-delay: 0.7s;
+        animation-delay: 0.7s;
+      }
+      .coin-60-R90-7s-0 {
+        right: 90px;
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+      }
+      .coin-60-R-50-7s-12 {
+        right: 50px;
+        -webkit-animation-delay: 1.9s;
+        animation-delay: 1.9s;
+      }
+      .coin-60-R160-7s-17 {
+        right: 160px;
+        -webkit-animation-delay: 2.5s;
+        animation-delay: 2.5s;
+      }
+      .coin-60-R160-7s-25 {
+        right: 160px;
+        -webkit-animation-delay: 3s;
+        animation-delay: 3s;
+      }
+      .coin-60-R270-7s-1 {
+        right: 270px;
+        -webkit-animation-delay: 0.1s;
+        animation-delay: 0.1s;
+      }
+      .coin-60-R-50-7s-51 {
+        right: -50px;
+        -webkit-animation-delay: 5.1s;
+        animation-delay: 5.1s;
+      }
+      .coin-60-R140-7s-06 {
+        right: 140px;
+        -webkit-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+      }
+      .coin-60-R190-7s-130 {
+        right: 190px;
+        -webkit-animation-delay: 13s;
+        animation-delay: 13s;
+      }
+      .coin-60-R150-7s-83 {
+        right: 150px;
+        -webkit-animation-delay: 8.3s;
+        animation-delay: 8.3s;
+      }
+      .coin-60-R260-7s-29 {
+        right: 260px;
+        -webkit-animation-delay: 2.9s;
+        animation-delay: 2.9s;
+      }
+      .coin-60-R260-7s-6 {
+        right: 260px;
+        -webkit-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+      }
+      .coin-60-R370-7s-49 {
+        right: 370px;
+        -webkit-animation-delay: 4.9s;
+        animation-delay: 4.9s;
+      }
+      .coin-60-R450-7s-16 {
+        right: 450px;
+        -webkit-animation-delay: 1.6s;
+        animation-delay: 1.6s;
+      }
+      .coin-60-R440-7s-39 {
+        right: 440px;
+        -webkit-animation-delay: 3.9s;
+        animation-delay: 3.9s;
+      }
+      .coin-60-R490-7s-29 {
+        right: 490px;
+        -webkit-animation-delay: 2.9s;
+        animation-delay: 2.9s;
+      }
+      .coin-60-R450-7s-13 {
+        right: 450px;
+        -webkit-animation-delay: 1.3s;
+        animation-delay: 1.3s;
+      }
+      .coin-60-R560-7s-11 {
+        right: 560px;
+        -webkit-animation-delay: 1.1s;
+        animation-delay: 1.1s;
+      }
+      .coin-60-R560-7s-05 {
+        right: 560px;
+        -webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+      }
+      .coin-60-R670-7s-09 {
+        right: 670px;
+        -webkit-animation-delay: 0.9s;
+        animation-delay: 0.9s;
+      }
+      .coin-110-R70-55s-0 {
+        right: 70px;
+        -webkit-animation-delay: 1.2s;
+        animation-delay: 1.2s;
+      }
+      .coin-110-R130-55s-2 {
+        right: 130px;
+        -webkit-animation-delay: 2.4s;
+        animation-delay: 2.4s;
+      }
+      .coin-110-R160-55s-3 {
+        right: 160px;
+        -webkit-animation-delay: 3.4s;
+        animation-delay: 3.4s;
+      }
+      .coin-110-R210-55s-4 {
+        right: 210px;
+        -webkit-animation-delay: 4.4s;
+        animation-delay: 4.4s;
+      }
+      .coin-110-R360-55s-34 {
+        right: 360px;
+        -webkit-animation-delay: 3.8s;
+        animation-delay: 3.8s;
+      }
+      .coin-110-R170-55s-84 {
+        right: 170px;
+        -webkit-animation-delay: 8.4s;
+        animation-delay: 8.4s;
+      }
+      .coin-110-R230-55s-39 {
+        right: 230px;
+        -webkit-animation-delay: 3.9s;
+        animation-delay: 3.9s;
+      }
+      .coin-110-R260-55s-23 {
+        right: 260px;
+        -webkit-animation-delay: 2.3s;
+        animation-delay: 2.3s;
+      }
+      .coin-110-R410-55s-32 {
+        right: 410px;
+        -webkit-animation-delay: 3.2s;
+        animation-delay: 3.2s;
+      }
+      .coin-110-R460-55s-01 {
+        right: 460px;
+        -webkit-animation-delay: 0.1s;
+        animation-delay: 0.1s;
+      }
+      .coin-110-R270-55s-27 {
+        right: 270px;
+        -webkit-animation-delay: 2.7s;
+        animation-delay: 2.7s;
+      }
+      .coin-110-R330-55s-6 {
+        right: 330px;
+        -webkit-animation-delay: 6s;
+        animation-delay: 6s;
+      }
+      .coin-110-R360-55s-33 {
+        right: 360px;
+        -webkit-animation-delay: 3.3s;
+        animation-delay: 3.3s;
+      }
+      .coin-110-R510-55s-21 {
+        right: 510px;
+        -webkit-animation-delay: 2.1s;
+        animation-delay: 2.1s;
+      }
+      .coin-110-R560-55s-09 {
+        right: 560px;
+        -webkit-animation-delay: 0.9s;
+        animation-delay: 0.9s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="window_page_overlay you_won">
+      <a href="https://www.yolorekt.finance/game/" class="image">
+        <img
+          style="width: 500px"
+          src="./twitterShare_files/result_1675202751484_5841.png"
+          alt="image-2022-08-22-T15-44-13-016-Z"
+          border="0"
+        />
+        <div class="button">
+          Thanks for sharing your win!<br />Click to play YOLOREKT again...
+        </div>
+      </a>
+
+      <div class="coin_drop coin-15 coin-15-L50-13s-0"></div>
+      <div class="coin_drop coin-15 coin-15-L70-13s-3"></div>
+      <div class="coin_drop coin-15 coin-15-L100-13s-4"></div>
+      <div class="coin_drop coin-15 coin-15-L160-13s-45"></div>
+      <div class="coin_drop coin-15 coin-15-L230-13s-6"></div>
+
+      <div class="coin_drop coin-15 coin-15-L150-13s-02"></div>
+      <div class="coin_drop coin-15 coin-15-L170-13s-1"></div>
+      <div class="coin_drop coin-15 coin-15-L200-13s-2"></div>
+      <div class="coin_drop coin-15 coin-15-L260-13s-35"></div>
+      <div class="coin_drop coin-15 coin-15-L330-13s-5"></div>
+
+      <div class="coin_drop coin-15 coin-15-L250-13s-02"></div>
+      <div class="coin_drop coin-15 coin-15-L270-13s-1"></div>
+      <div class="coin_drop coin-15 coin-15-L300-13s-2"></div>
+      <div class="coin_drop coin-15 coin-15-L360-13s-35"></div>
+      <div class="coin_drop coin-15 coin-15-L430-13s-5"></div>
+
+      <div class="coin_drop coin-30 coin-30-L30-9s-25"></div>
+      <div class="coin_drop coin-30 coin-30-L50-9s-05"></div>
+      <div class="coin_drop coin-30 coin-30-L100-9s-1"></div>
+      <div class="coin_drop coin-30 coin-30-L100-9s-21"></div>
+      <div class="coin_drop coin-30 coin-30-L170-9s-3"></div>
+      <div class="coin_drop coin-30 coin-30-L190-9s-2"></div>
+
+      <div class="coin_drop coin-30 coin-30-L130-9s-39"></div>
+      <div class="coin_drop coin-30 coin-30-L150-9s-15"></div>
+      <div class="coin_drop coin-30 coin-30-L200-9s-17"></div>
+      <div class="coin_drop coin-30 coin-30-L200-9s-21"></div>
+      <div class="coin_drop coin-30 coin-30-L270-9s-43"></div>
+      <div class="coin_drop coin-30 coin-30-L290-9s-23"></div>
+
+      <div class="coin_drop coin-30 coin-30-L330-9s-23"></div>
+      <div class="coin_drop coin-30 coin-30-L350-9s-46"></div>
+      <div class="coin_drop coin-30 coin-30-L400-9s-13"></div>
+      <div class="coin_drop coin-30 coin-30-L400-9s-14"></div>
+      <div class="coin_drop coin-30 coin-30-L470-9s-69"></div>
+      <div class="coin_drop coin-30 coin-30-L490-9s-44"></div>
+
+      <div class="coin_drop coin-60 coin-60-L-30-7s-06"></div>
+      <div class="coin_drop coin-60 coin-60-L40-7s-02"></div>
+      <div class="coin_drop coin-60 coin-60-L90-7s-0"></div>
+      <div class="coin_drop coin-60 coin-60-L-50-7s-12"></div>
+      <div class="coin_drop coin-60 coin-60-L160-7s-17"></div>
+      <div class="coin_drop coin-60 coin-60-L160-7s-25"></div>
+      <div class="coin_drop coin-60 coin-60-L270-7s-1"></div>
+
+      <div class="coin_drop coin-60 coin-60-L-50-7s-09"></div>
+      <div class="coin_drop coin-60 coin-60-L140-7s-05"></div>
+      <div class="coin_drop coin-60 coin-60-L190-7s-11"></div>
+      <div class="coin_drop coin-60 coin-60-L150-7s-13"></div>
+      <div class="coin_drop coin-60 coin-60-L260-7s-29"></div>
+      <div class="coin_drop coin-60 coin-60-L260-7s-39"></div>
+      <div class="coin_drop coin-60 coin-60-L370-7s-16"></div>
+
+      <div class="coin_drop coin-60 coin-60-L450-7s-49"></div>
+      <div class="coin_drop coin-60 coin-60-L440-7s-6"></div>
+      <div class="coin_drop coin-60 coin-60-L490-7s-29"></div>
+      <div class="coin_drop coin-60 coin-60-L450-7s-83"></div>
+      <div class="coin_drop coin-60 coin-60-L560-7s-130"></div>
+      <div class="coin_drop coin-60 coin-60-L560-7s-06"></div>
+      <div class="coin_drop coin-60 coin-60-L670-7s-51"></div>
+
+      <div class="coin_drop coin-110 coin-110-L70-55s-0"></div>
+      <div class="coin_drop coin-110 coin-110-L130-55s-2"></div>
+      <div class="coin_drop coin-110 coin-110-L160-55s-3"></div>
+      <div class="coin_drop coin-110 coin-110-L210-55s-4"></div>
+      <div class="coin_drop coin-110 coin-110-L360-55s-34"></div>
+
+      <div class="coin_drop coin-110 coin-110-L170-55s-09"></div>
+      <div class="coin_drop coin-110 coin-110-L230-55s-21"></div>
+      <div class="coin_drop coin-110 coin-110-L260-55s-33"></div>
+      <div class="coin_drop coin-110 coin-110-L410-55s-6"></div>
+      <div class="coin_drop coin-110 coin-110-L460-55s-27"></div>
+
+      <div class="coin_drop coin-110 coin-110-L270-55s-01"></div>
+      <div class="coin_drop coin-110 coin-110-L300-55s-39"></div>
+      <div class="coin_drop coin-110 coin-110-L360-55s-53"></div>
+      <div class="coin_drop coin-110 coin-110-L510-55s-39"></div>
+      <div class="coin_drop coin-110 coin-110-L560-55s-84"></div>
+
+      <div class="coin_drop coin-15 coin-15-R50-13s-0"></div>
+      <div class="coin_drop coin-15 coin-15-R70-13s-3"></div>
+      <div class="coin_drop coin-15 coin-15-R100-13s-4"></div>
+      <div class="coin_drop coin-15 coin-15-R160-13s-45"></div>
+      <div class="coin_drop coin-15 coin-15-R230-13s-6"></div>
+
+      <div class="coin_drop coin-15 coin-15-R150-13s-02"></div>
+      <div class="coin_drop coin-15 coin-15-R170-13s-1"></div>
+      <div class="coin_drop coin-15 coin-15-R200-13s-2"></div>
+      <div class="coin_drop coin-15 coin-15-R260-13s-35"></div>
+      <div class="coin_drop coin-15 coin-15-R330-13s-5"></div>
+
+      <div class="coin_drop coin-15 coin-15-R250-13s-02"></div>
+      <div class="coin_drop coin-15 coin-15-R270-13s-1"></div>
+      <div class="coin_drop coin-15 coin-15-R300-13s-2"></div>
+      <div class="coin_drop coin-15 coin-15-R360-13s-35"></div>
+      <div class="coin_drop coin-15 coin-15-R430-13s-5"></div>
+
+      <div class="coin_drop coin-30 coin-30-R50-9s-05"></div>
+      <div class="coin_drop coin-30 coin-30-R100-9s-05"></div>
+      <div class="coin_drop coin-30 coin-30-R30-9s-05"></div>
+      <div class="coin_drop coin-30 coin-30-R100-9s-11"></div>
+      <div class="coin_drop coin-30 coin-30-R170-9s-3"></div>
+      <div class="coin_drop coin-30 coin-30-R190-9s-2"></div>
+
+      <div class="coin_drop coin-30 coin-30-R130-9s-19"></div>
+      <div class="coin_drop coin-30 coin-30-R150-9s-35"></div>
+      <div class="coin_drop coin-30 coin-30-R200-9s-07"></div>
+      <div class="coin_drop coin-30 coin-30-R200-9s-29"></div>
+      <div class="coin_drop coin-30 coin-30-R270-9s-46"></div>
+      <div class="coin_drop coin-30 coin-30-R290-9s-57"></div>
+
+      <div class="coin_drop coin-30 coin-30-R330-9s-06"></div>
+      <div class="coin_drop coin-30 coin-30-R350-9s-19"></div>
+      <div class="coin_drop coin-30 coin-30-R400-9s-26"></div>
+      <div class="coin_drop coin-30 coin-30-R400-9s-38"></div>
+      <div class="coin_drop coin-30 coin-30-R470-9s-09"></div>
+      <div class="coin_drop coin-30 coin-30-R490-9s-02"></div>
+
+      <div class="coin_drop coin-60 coin-60-R-30-7s-06"></div>
+      <div class="coin_drop coin-60 coin-60-R40-7s-02"></div>
+      <div class="coin_drop coin-60 coin-60-R90-7s-0"></div>
+      <div class="coin_drop coin-60 coin-60-R-50-7s-12"></div>
+      <div class="coin_drop coin-60 coin-60-R160-7s-17"></div>
+      <div class="coin_drop coin-60 coin-60-R160-7s-25"></div>
+      <div class="coin_drop coin-60 coin-60-R270-7s-1"></div>
+
+      <div class="coin_drop coin-60 coin-60-R-50-7s-51"></div>
+      <div class="coin_drop coin-60 coin-60-R140-7s-06"></div>
+      <div class="coin_drop coin-60 coin-60-R190-7s-130"></div>
+      <div class="coin_drop coin-60 coin-60-R150-7s-83"></div>
+      <div class="coin_drop coin-60 coin-60-R260-7s-29"></div>
+      <div class="coin_drop coin-60 coin-60-R260-7s-6"></div>
+      <div class="coin_drop coin-60 coin-60-R370-7s-49"></div>
+
+      <div class="coin_drop coin-60 coin-60-R450-7s-16"></div>
+      <div class="coin_drop coin-60 coin-60-R440-7s-39"></div>
+      <div class="coin_drop coin-60 coin-60-R490-7s-29"></div>
+      <div class="coin_drop coin-60 coin-60-R450-7s-13"></div>
+      <div class="coin_drop coin-60 coin-60-R560-7s-11"></div>
+      <div class="coin_drop coin-60 coin-60-R560-7s-05"></div>
+      <div class="coin_drop coin-60 coin-60-R670-7s-09"></div>
+
+      <div class="coin_drop coin-110 coin-110-R70-55s-0"></div>
+      <div class="coin_drop coin-110 coin-110-R130-55s-2"></div>
+      <div class="coin_drop coin-110 coin-110-R160-55s-3"></div>
+      <div class="coin_drop coin-110 coin-110-R210-55s-4"></div>
+      <div class="coin_drop coin-110 coin-110-R360-55s-34"></div>
+
+      <div class="coin_drop coin-110 coin-110-R170-55s-84"></div>
+      <div class="coin_drop coin-110 coin-110-R230-55s-39"></div>
+      <div class="coin_drop coin-110 coin-110-R260-55s-23"></div>
+      <div class="coin_drop coin-110 coin-110-R410-55s-32"></div>
+      <div class="coin_drop coin-110 coin-110-R460-55s-01"></div>
+
+      <div class="coin_drop coin-110 coin-110-R270-55s-27"></div>
+      <div class="coin_drop coin-110 coin-110-R330-55s-6"></div>
+      <div class="coin_drop coin-110 coin-110-R360-55s-33"></div>
+      <div class="coin_drop coin-110 coin-110-R510-55s-21"></div>
+      <div class="coin_drop coin-110 coin-110-R560-55s-09"></div>
+    </div>
+  </body>
+</html>
